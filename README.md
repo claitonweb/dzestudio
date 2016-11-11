@@ -61,7 +61,7 @@ if(isset($_POST['respostas'])){
 ?>
 ```
 
-### Installation
+### Instalação
 QUIZ requer PHP v5+ para rodar e qualquer servidor Web.
 
 Licença
