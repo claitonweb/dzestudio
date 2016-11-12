@@ -45,7 +45,7 @@ include('config.php');
 					
 					<div class='jumbotron'>
 						<p><?php echo $seriequem['texto'] ?></p>
-						<p><a class='btn btn-primary btn-lg' href='/dzestudio/' role='button'>Refazer</a></p>
+						<p><a class='btn btn-primary btn-lg' href='<?php echo $_SERVER['REQUEST_URI']?>' role='button'>Refazer</a></p>
 					</div>
 				<?php 
 				}else{
